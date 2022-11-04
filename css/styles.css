@@ -40,8 +40,24 @@
 #servicescol {
   background-image: url("../assets/backgrounds/s_image.jpg");
   text-align: center;
-  padding-top: 14rem;
+  /* padding-top: 5rem; */
   background-repeat: no-repeat;
   padding-bottom: 7rem;
   color: white;
 }
+
+#whatrow {
+  text-align: center;
+}
+
+#portfoliocol{
+     display: inline-block;
+}
+
+#portfolioimg{
+    margin: 5px;
+}
+
+#portfoliorow {
+    text-align: center;
+  }
