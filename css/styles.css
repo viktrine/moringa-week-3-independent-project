@@ -11,7 +11,7 @@
 }
 
 #landingcol {
-  background-image: url("../../assets/backgrounds/h_img.jpg");
+  background-image: url("../assets/backgrounds/h_img.jpg");
   text-align: center;
   background-repeat: no-repeat;
   padding-top: 14rem;
@@ -109,11 +109,25 @@
   text-align: center;
 }
 
-#portfoliocol1, #portfoliocol2, #portfoliocol3, #portfoliocol4, #portfoliocol5, #portfoliocol6, #portfoliocol7, #portfoliocol8 {
+#portfoliocol1,
+#portfoliocol2,
+#portfoliocol3,
+#portfoliocol4,
+#portfoliocol5,
+#portfoliocol6,
+#portfoliocol7,
+#portfoliocol8 {
   position: relative;
 }
 
-#portfolioname1, #portfolioname2, #portfolioname3, #portfolioname4, #portfolioname5, #portfolioname6, #portfolioname7, #portfolioname8  {
+#portfolioname1,
+#portfolioname2,
+#portfolioname3,
+#portfolioname4,
+#portfolioname5,
+#portfolioname6,
+#portfolioname7,
+#portfolioname8 {
   position: absolute;
   background-color: white;
   top: 50%;
