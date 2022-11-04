@@ -37,4 +37,11 @@ $(document).ready(function(){
     $('#portfoliocol6').mouseenter(function () { $('#portfolioname6').show();  }).mouseleave( function (){ $('#portfolioname6').hide();});
     $('#portfoliocol7').mouseenter(function () { $('#portfolioname7').show();  }).mouseleave( function (){ $('#portfolioname7').hide();});
     $('#portfoliocol8').mouseenter(function () { $('#portfolioname8').show();  }).mouseleave( function (){ $('#portfolioname8').hide();});
+
+    // capture form submit
+    $('#inputmessage').keypress(function () { 
+        var inputname = $("#inputname").val()
+        
+        alert("** " + inputname + " we have received your message. Thank you fro reaching out to us. **");
+    });
 });
