@@ -1,3 +1,9 @@
+#body {
+  font-family: "Trirong", serif;
+  margin: 0rem;
+  padding: 0rem;
+  width: 100%;
+}
 #landingrow {
   background-size: 100%;
   height: 47 rem;
@@ -61,6 +67,7 @@
 
 #formrow {
   text-align: center;
+  margin-top: 1rem;
 }
 
 #contactcol {
@@ -96,5 +103,21 @@
   display: none;
 }
 #product_icon_desc {
+  display: none;
+}
+#portfoliorow {
+  text-align: center;
+}
+
+#portfoliocol1, #portfoliocol2, #portfoliocol3, #portfoliocol4, #portfoliocol5, #portfoliocol6, #portfoliocol7, #portfoliocol8 {
+  position: relative;
+}
+
+#portfolioname1, #portfolioname2, #portfolioname3, #portfolioname4, #portfolioname5, #portfolioname6, #portfolioname7, #portfolioname8  {
+  position: absolute;
+  background-color: white;
+  top: 50%;
+  right: 50%;
+  font-size: 20px;
   display: none;
 }

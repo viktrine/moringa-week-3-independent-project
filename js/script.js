@@ -27,4 +27,14 @@ $(document).ready(function(){
         $('#product_icon_desc').hide();
         $('#product_icon').show();
     });
+
+    // check portfolio hover
+    $('#portfoliocol1').mouseenter(function () { $('#portfolioname1').show();  }).mouseleave( function (){ $('#portfolioname1').hide();});
+    $('#portfoliocol2').mouseenter(function () { $('#portfolioname2').show();  }).mouseleave( function (){ $('#portfolioname2').hide();});
+    $('#portfoliocol3').mouseenter(function () { $('#portfolioname3').show();  }).mouseleave( function (){ $('#portfolioname3').hide();});
+    $('#portfoliocol4').mouseenter(function () { $('#portfolioname4').show();  }).mouseleave( function (){ $('#portfolioname4').hide();});
+    $('#portfoliocol5').mouseenter(function () { $('#portfolioname5').show();  }).mouseleave( function (){ $('#portfolioname5').hide();});
+    $('#portfoliocol6').mouseenter(function () { $('#portfolioname6').show();  }).mouseleave( function (){ $('#portfolioname6').hide();});
+    $('#portfoliocol7').mouseenter(function () { $('#portfolioname7').show();  }).mouseleave( function (){ $('#portfolioname7').hide();});
+    $('#portfoliocol8').mouseenter(function () { $('#portfolioname8').show();  }).mouseleave( function (){ $('#portfolioname8').hide();});
 });
