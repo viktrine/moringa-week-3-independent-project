@@ -50,14 +50,32 @@
   text-align: center;
 }
 
-#portfoliocol{
-     display: inline-block;
+#portfoliocol {
+  display: inline-block;
 }
 
-#portfolioimg{
-    margin: 5px;
+#portfolioimg {
+  width: 99%;
+  height: 95%;
 }
 
-#portfoliorow {
+#formrow {
+  text-align: center;
+}
+
+#contactcol {
+    background-image: url("../assets/backgrounds/c_image.jpg");
     text-align: center;
+    background-repeat: no-repeat;
+    padding-bottom: 15rem;
+  }
+
+  #socialmediarow{
+    margin-top: 2rem;
+    text-align: center;
+  }
+
+  #imgnospaces{
+    padding: 0px;
+    margin:0px;
   }
