@@ -64,27 +64,37 @@
 }
 
 #contactcol {
-    background-image: url("../assets/backgrounds/c_image.jpg");
-    text-align: center;
-    background-repeat: no-repeat;
-    padding-bottom: 15rem;
-  }
+  background-image: url("../assets/backgrounds/c_image.jpg");
+  text-align: center;
+  background-repeat: no-repeat;
+  padding-bottom: 15rem;
+}
 
-  #socialmediarow{
-    margin-top: 2rem;
-    text-align: center;
-  }
+#socialmediarow {
+  margin-top: 2rem;
+  text-align: center;
+}
 
-  #imgnospaces{
-    display: inline-block;
-  }
+#imgnospaces {
+  display: inline-block;
+}
 
-  #footerdiv{
-    margin-top: 2rem;
-    text-align: center;
-  }
+#footerdiv {
+  margin-top: 2rem;
+  text-align: center;
+}
 
-  #nomargpadd{
-    padding: 0px;
-    margin: 0px;
-  }
+#nomargpadd {
+  padding: 0px;
+  margin: 0px;
+}
+
+#design_icon_desc {
+  display: none;
+}
+#dev_icon_desc {
+  display: none;
+}
+#product_icon_desc {
+  display: none;
+}
