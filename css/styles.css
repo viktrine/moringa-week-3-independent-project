@@ -76,6 +76,15 @@
   }
 
   #imgnospaces{
+    display: inline-block;
+  }
+
+  #footerdiv{
+    margin-top: 2rem;
+    text-align: center;
+  }
+
+  #nomargpadd{
     padding: 0px;
-    margin:0px;
+    margin: 0px;
   }
